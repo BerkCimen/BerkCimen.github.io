@@ -1,0 +1,119 @@
+/* Genel Stil */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Açık mavi arka plan */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Başlık ve Navbar */
+header {
+    background-color: #30d5c8; /* Turkuaz arka plan */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: #30d5c8;
+}
+
+/* Bölümler */
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    color: #ff6347; /* Turuncu başlık */
+    border-bottom: 2px solid #30d5c8;
+    padding-bottom: 5px;
+}
+
+/* Homework Listesi */
+#homework ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#homework ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+#homework ul li a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #30d5c8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+#homework ul li a:hover {
+    background: #ff6347;
+}
+
+/* İletişim */
+#contact p a {
+    color: #30d5c8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#contact p a:hover {
+    color: #ff6347;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
